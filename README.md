@@ -59,10 +59,9 @@ I enjoy solving complex problems and turning ideas into reliable software soluti
 
 ---
 
-## 👾 My Pacman Contribution Graph
-
+## 🐍 My Contribution Graph
 <p align="center">
-<img src="https://github.com/wisnoe14/wisnoe14/blob/output/contribution-graph.svg" alt="Pac-Man Contribution Graph">
+<img src="https://github.com/wisnoe14/wisnoe14/blob/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph">
 </p>
 ---
 
