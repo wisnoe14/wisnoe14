@@ -1,28 +1,39 @@
-name: Generate Pacman Contribution Graph
+# Nama workflow
+name: Generate Pac-Man Contribution Graph
 
+# Kapan workflow ini dijalankan
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # Berjalan setiap 6 jam
+    - cron: '0 */6 * * *'
+  # Memungkinkan untuk menjalankan secara manual dari tab Actions
   workflow_dispatch:
 
+# Pekerjaan yang harus dilakukan
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: lucasgats/pacman-contribution-graph@v1
+      # 1. Checkout kode repositori Anda
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # 2. Gunakan action untuk membuat grafik Pac-Man
+      - name: Generate Pac-Man Graph
+        uses: JaeSeoKim/github-contribution-graph-JaeSeoKim@v1.3.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          user_name: wisnoe14
-          svg_out_path: "github-contribution-grid-pacman.svg"
-      - uses: actions/upload-artifact@v4
+          # Gunakan nama pengguna GitHub Anda secara otomatis
+          github_user_name: ${{ github.repository_owner }}
+          # Nama file output
+          outputs: |
+            dist/contribution-graph.svg
+
+      # 3. Dorong (push) file gambar yang baru dibuat ke branch 'output'
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          name: pacman-contribution-graph
-          path: github-contribution-grid-pacman.svg
-      - name: Commit file
-        run: |
-          git config --global user.name 'github-actions'
-          git config --global user.email 'github-actions@github.com'
-          git checkout -B output
-          git add github-contribution-grid-pacman.svg
-          git commit -m "Generate Pacman contribution graph"
-          git push origin output --force
+          target_branch: output
+          build_dir: dist
+        env:
+          # Token ini disediakan secara otomatis oleh GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
