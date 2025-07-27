@@ -1,5 +1,5 @@
 # Nama workflow
-name: Generate Pac-Man Contribution Graph
+name: Generate Snake Animation
 
 # Kapan workflow ini dijalankan
 on:
@@ -18,16 +18,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      # 2. Gunakan action yang benar untuk membuat grafik Pac-Man
-      # Perhatikan huruf besar/kecil pada 'JaeSeoKim'
-      - name: Generate Pac-Man Graph
-        uses: JaeSeoKim/github-contribution-graph-JaeSeoKim@v1.3.0
+      # 2. Gunakan action yang benar untuk membuat animasi ular
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         with:
           # Gunakan nama pengguna GitHub Anda secara otomatis
           github_user_name: ${{ github.repository_owner }}
-          # Nama file output
+          # Nama file output yang akan dibuat
           outputs: |
-            dist/contribution-graph.svg
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       # 3. Dorong (push) file gambar yang baru dibuat ke branch 'output'
       - name: Push to output branch
