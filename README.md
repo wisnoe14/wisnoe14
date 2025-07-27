@@ -1,61 +1,83 @@
 <h1 align="center">
-Hi there 👋, I'm Wisnu Tangkas
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+  Hi there 👋, I'm Wisnu Tangkas
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
 <h3 align="center">Backend Developer | Laravel Enthusiast | Code Debugger 🐞</h3>
 
 <p align="center">
-<a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">👔 LinkedIn</a> &nbsp; | &nbsp;
-<a href="mailto:your-email@example.com">✉️ Email</a>
+  <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">👔 LinkedIn</a> &nbsp; | &nbsp;
+  <a href="mailto:your-email@example.com">✉️ Email</a>
 </p>
 
 <p align="center">
-<img src="https://readme-typing-svg.demolab.com%3Ffont%3DFira%2BCode%26pause%3D1000%26color%3D00FFFF%26center%3Dtrue%26vCenter%3Dtrue%26width%3D435%26lines%3DBackend%2BDeveloper%3BBuilding%2BScalable%2BMicroservices%3BLaravel%2B%257C%2BMongoDB%2B%257C%2BRabbitMQ%3BAlways%2Blearning%2Band%2Bdebugging%2B%25F0%259F%2590%259E" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00FFFF&center=true&vCenter=true&width=435&lines=Backend+Developer;Building+Scalable+Microservices;Laravel+%7C+MongoDB+%7C+RabbitMQ;Always+learning+and+debugging+%F0%9F%90%9E" alt="Typing SVG" />
 </p>
 
-🚀 About Me
-I'm a Backend Developer specializing in the Laravel ecosystem with a passion for building robust, scalable, and efficient applications. My current focus is on designing and implementing microservice architectures, leveraging technologies like RabbitMQ for asynchronous communication and event-driven patterns. I enjoy solving complex problems and turning ideas into reliable software solutions.
+---
 
-🛠️ My Tech Stack & Tools
-Languages & Frameworks: 🐘 PHP, 🚀 Laravel
+## 🚀 About Me
 
-Databases: 🍃 MongoDB, 🐬 MySQL
+I'm a Backend Developer specializing in the Laravel ecosystem with a passion for building robust, scalable, and efficient applications.  
+My current focus is on designing and implementing microservice architectures, leveraging technologies like RabbitMQ for asynchronous communication and event-driven patterns.  
+I enjoy solving complex problems and turning ideas into reliable software solutions.
 
-Tools & Platforms: 📨 RabbitMQ, 🐳 Docker, 🐙 Git, 📜 Swagger
+---
 
-Authentication: 🔑 JWT Auth
+## 🛠️ My Tech Stack & Tools
 
-🌱 I’m Currently Learning
-Event-Driven Architecture for more decoupled and resilient systems.
+**Languages & Frameworks:**  
+🐘 PHP, 🚀 Laravel  
 
-Clean Architecture to build maintainable and testable codebases.
+**Databases:**  
+🍃 MongoDB, 🐬 MySQL  
 
-CI/CD Pipelines with GitHub Actions & Docker for automated workflows.
+**Tools & Platforms:**  
+📨 RabbitMQ, 🐳 Docker, 🐙 Git, 📜 Swagger  
 
-Advanced Database Performance Optimization.
+**Authentication:**  
+🔑 JWT Auth  
 
-📊 My GitHub Stats
+---
+
+## 🌱 I’m Currently Learning
+
+- Event-Driven Architecture for more decoupled and resilient systems.
+- Clean Architecture to build maintainable and testable codebases.
+- CI/CD Pipelines with GitHub Actions & Docker for automated workflows.
+- Advanced Database Performance Optimization.
+
+---
+
+## 📊 My GitHub Stats
+
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api%3Fusername%3Dwisnoe14%26show_icons%3Dtrue%26theme%3Dtokyonight%26hide_border%3Dtrue%26count_private%3Dtrue%26include_all_commits%3Dtrue" alt="Wisnu's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=wisnoe14&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Wisnu's GitHub Stats" />
 </p>
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3Dwisnoe14%26layout%3Dcompact%26theme%3Dtokyonight%26hide_border%3Dtrue" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wisnoe14&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
-🐍 My Contribution Graph
+---
+
+## 👾 My Pacman Contribution Graph
+
 <p align="center">
-<img src="https://github.com/wisnoe14/wisnoe14/blob/output/github-contribution-grid-snake.svg" alt="Snake Contribution Graph">
+  <img src="https://github.com/wisnoe14/wisnoe14/blob/output/github-contribution-grid-pacman.svg" alt="Pacman Contribution Graph">
 </p>
+
+---
 
 <details align="center">
 <summary>☕ Fun Fact: My Developer Loop</summary>
 <br/>
 
+```javascript
 while(alive) {
   eat();
   code();
   debug();
   repeat();
 }
+```
 
 </details>
