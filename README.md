@@ -62,7 +62,7 @@ I enjoy solving complex problems and turning ideas into reliable software soluti
 ## 👾 My Pacman Contribution Graph
 
 <p align="center">
-  <img src="https://github.com/wisnoe14/wisnoe14/blob/output/github-contribution-grid-pacman.svg" alt="Pacman Contribution Graph">
+  <img src="https://github.com/wisnoe14/wisnoe14/blob/output/pacman-contribution-grid.svg" alt="Pacman Contribution Graph">
 </p>
 
 ---
